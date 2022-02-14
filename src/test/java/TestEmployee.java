@@ -87,4 +87,11 @@ public class TestEmployee {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void checkSetEnameTest(){
+        String expected = "Svensson";
+
+        TestObject1.setEname(expected);
+    }
+
 }
