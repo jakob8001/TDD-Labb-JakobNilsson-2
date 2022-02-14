@@ -17,4 +17,8 @@ public class Employee {
     public String getFname() {
         return Fname;
     }
+
+    public void setFname(String newFname) {
+
+    }
 }

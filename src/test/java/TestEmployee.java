@@ -71,7 +71,7 @@ public class TestEmployee {
     public void checkSetFnameTest(){
         String expcted = "göran";
 
-        TestObject1.setFname();
+        TestObject1.setFname(expcted);
     }
 
 }
