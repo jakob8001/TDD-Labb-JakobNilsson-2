@@ -58,4 +58,11 @@ public class TestEmployee {
         Assertions.assertEquals(expected3,actual3);
     }
 
+    @Test
+    public void getFnameTest(){
+        String expected = "Jakob";
+
+        String actual = TestObject1.getFname();
+    }
+
 }
