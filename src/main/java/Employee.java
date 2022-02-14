@@ -19,6 +19,6 @@ public class Employee {
     }
 
     public void setFname(String newFname) {
-
+        Fname = newFname;
     }
 }
