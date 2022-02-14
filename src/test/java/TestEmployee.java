@@ -98,4 +98,11 @@ public class TestEmployee {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void checkGetAgeTest(){
+        int expected = 23;
+
+        int actual = TestObject1.getAge();
+    }
+
 }
