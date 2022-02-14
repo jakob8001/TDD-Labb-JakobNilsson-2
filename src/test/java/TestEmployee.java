@@ -32,7 +32,7 @@ public class TestEmployee {
         int expected = 1001;
 
 
-        int actual = TestObject.getUniqueID(ID);
+        int actual = TestObject.getUniqueID();
     }
 
 
