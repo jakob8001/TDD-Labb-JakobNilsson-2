@@ -82,7 +82,7 @@ public class TestEmployee {
     public void getEnameTest(){
         String expected = "Nilsson";
 
-        String actual = TestObject1.getEname;
+        String actual = TestObject1.getEname();
     }
 
 }
