@@ -1,11 +1,12 @@
 public class Employee {
 
-    int ID;
-    int IDcounter = 1001;
-
+    private int ID;
+    private static int IDcounter;
+    private String Fname;
     public Employee(String Fname, String Ename, int age, double salary){
+        IDcounter = IDcounter + 1;
         ID = IDcounter;
-        IDcounter++;
+        this.Fname = Fname;
     }
 
     public int getUniqueID() {
@@ -13,4 +14,7 @@ public class Employee {
     }
 
 
+    public String getFname() {
+        return Fname;
+    }
 }
