@@ -93,7 +93,9 @@ public class TestEmployee {
 
         TestObject1.setEname(expected);
 
+        String actual = TestObject1.getEname();
 
+        Assertions.assertEquals(expected,actual);
     }
 
 }
