@@ -1,3 +1,4 @@
+import com.sun.xml.internal.bind.v2.model.core.ID;
 import org.junit.jupiter.api.*;
 
 public class TestEmployee {
@@ -30,7 +31,8 @@ public class TestEmployee {
     public void checkGetUniqueID(){
         int expected = 1001;
 
-        int actual = TestObject.getUniqueID();
+        int ID = TestObject.createUniqueID();
+        int actual = TestObject.getUniqueID(ID);
     }
 
 
