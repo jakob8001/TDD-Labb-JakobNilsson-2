@@ -28,4 +28,8 @@ public class Employee {
     public String getEname() {
         return Ename;
     }
+
+    public void setEname(String newEname) {
+        Ename = newEname;
+    }
 }
