@@ -35,20 +35,19 @@ public class TestEmployee {
 
     @Test
     public void checkGetUniqueID(){
-        int expected = 1001;
-
+        int expected = 1;
 
         int actual = TestObject1.getUniqueID();
 
         Assertions.assertEquals(expected, actual);
     }
 
-    @ParameterizedTest
+    @Test
     public void checkUniqueID(){
 
-        int expected1 = 1001;
-        int expected2 = 1002;
-        int expected3 = 1003;
+        int expected1 = 1;
+        int expected2 = 2;
+        int expected3 = 3;
 
         int actual1 = TestObject1.getUniqueID();
         int actual2 = TestObject2.getUniqueID();
