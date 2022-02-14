@@ -67,4 +67,11 @@ public class TestEmployee {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void checkSetFnameTest(){
+        String expcted = "göran";
+
+        TestObject1.setFname();
+    }
+
 }
